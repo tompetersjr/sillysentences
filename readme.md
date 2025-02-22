@@ -1,5 +1,7 @@
 # Silly Sentences
 
+![Screenshot of Silly Sentences](images/sillysentences.png)
+
 **Silly Sentences** is a fun and interactive web application inspired by the classic Mad Libs game. Users can complete a variety of silly sentences by filling in the blanks with their own words, creating hilarious and creative stories. The application features a vibrant design, completion tracking, and a reset option for replayability.
 
 This project was an exercise of playing with Grok 3. Most of this project was generate via Grok 3 prompts. This includes the images.
