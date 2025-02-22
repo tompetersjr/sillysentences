@@ -331,6 +331,34 @@ form {
   font-size: 1.2em;
 }
 
+.github-button {
+  background-color: #6b48ff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-button:hover {
+  background-color: #5632cc;
+  transform: scale(1.05);
+}
+
+.github-button:active {
+  transform: scale(0.95);
+}
+
+.github-button i {
+  margin-right: 8px;
+}
+
 /* Responsive design */
 @media (max-width: 640px) {
   .completion-status {
