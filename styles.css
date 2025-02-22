@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+}
+
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f0f0f0, #d9e6ff);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Sticky header styles */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: linear-gradient(45deg, #ff6f61, #6b48ff);
+  padding: 15px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 60px;
+  overflow: hidden;
+}
+
+/* Container for title and instructions */
+.header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Stylish title */
+.flashy-title {
+  color: white;
+  margin: 0;
+  font-size: 2em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: pulse 2s infinite;
+}
+
+/* Creative instructions styling */
+.header-instructions {
+  color: #f0f0f0;
+  font-size: 1em;
+  margin: 5px 0 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-in;
+}
+
+/* Icon styling */
+.header-instructions i {
+  margin-right: 5px;
+  color: #ffd700;
+}
+
+/* Animation for title */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Main content styles */
+main {
+  padding: 60px 20px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  transition: padding-top 0.2s ease;
+}
+
+/* Index page styles */
+#silly_sentences-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.silly_sentence-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+.silly_sentence-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.silly_sentence-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  filter: blur(5px);
+}
+
+.silly_sentence-card.completed img {
+  filter: none; /* Unblur images for completed Silly Sentences */
+}
+
+.silly_sentence-card:hover img {
+  transform: scale(1.1);
+}
+
+.silly_sentence-card h2 {
+  margin: 10px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+/* Slide-in animation for cards */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Silly Sentences page layout */
+.silly_sentence-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0 20px;
+  gap: 20px;
+}
+
+.inputs-section {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin: 0;
+  min-width: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.silly_sentence-input {
+  padding: 10px;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.story-section {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: left;
+  margin: 0;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  transition: max-width 0.3s ease;
+}
+
+#story {
+  line-height: 1.6;
+  overflow-wrap: break-word;
+  font-size: 16px; /* Default font size */
+}
+
+/* Style for substituted values */
+.placeholder.substituted {
+  font-weight: bold;
+  color: #ff6f61; /* Coral color from buttons */
+  animation: subtlePulse 2s infinite ease-in-out; /* Gentle pulse animation */
+  transition: transform 0.2s ease; /* Smooth hover effect */
+  display: inline-block; /* Ensure transform works on inline elements */
+}
+
+/* Hover effect for interaction */
+.placeholder.substituted:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Subtle pulse animation */
+@keyframes subtlePulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+#silly_sentence-image {
+  margin-top: 20px;
+  display: block;
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid #ff6f61;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  background: linear-gradient(135deg, #fff, #f0f0f0);
+  padding: 10px;
+}
+
+.back-button {
+  background-color: coral;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #ff7f50;
+}
+
+.back-button:active {
+  transform: scale(0.95);
+}
+
+#reveal-button {
+  margin-top: 20px;
+}
+
+#try-again-button {
+  margin-top: 40px; /* More whitespace above */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto;
+  width: fit-content; /* Keep button width based on content */
+}
+
+/* Initially hide the reveal container */
+.reveal-container {
+  display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Reveal styles applied directly to .reveal-container.visible */
+.reveal-container.visible {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  max-width: 100%; /* Full width when revealed */
+}
+
+/* Increase font size when revealed */
+.reveal-container.visible #story {
+  font-size: 48px; /* Triple the default 16px */
+}
+
+.completion-status {
+  background: linear-gradient(135deg, #ffe6e6, #e6f2ff);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+}
+
+.completion-status p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff6f61;
+  margin: 0;
+}
+
+#reset-button {
+  background-color: #6b48ff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#reset-button:hover {
+  background-color: #5632cc;
+  transform: scale(1.05);
+}
+
+#reset-button:active {
+  transform: scale(0.95);
+}
+
+#reset-button::before {
+  content: '🔄';
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  .completion-status {
+    padding: 15px;
+    margin: 15px;
+  }
+  .completion-status p {
+    font-size: 1.2em;
+  }
+  #reset-button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+  .silly_sentence-container {
+    flex-direction: column;
+  }
+  .inputs-section, .story-section {
+    width: 100%;
+  }
+  .story-section {
+    max-width: none;
+  }
+  .silly_sentence-input {
+    width: 100%;
+    max-width: none;
+  }
+  .sticky-header {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .flashy-title {
+    font-size: 1.5em;
+  }
+}

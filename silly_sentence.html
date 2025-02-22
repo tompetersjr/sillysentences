@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silly Sentences</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <header class="sticky-header">
+    <h1 class="flashy-title" id="silly_sentence-title">Loading...</h1>
+    <button class="back-button" onclick="window.location.href='index.html'">Back to Index</button>
+  </header>
+  <main>
+    <div class="silly_sentence-container">
+      <div class="inputs-section">
+        <form id="silly_sentence-form" autocomplete="off">
+          <!-- Inputs will be dynamically added here -->
+        </form>
+        <button id="reveal-button" class="back-button" disabled>Reveal Story</button>
+      </div>
+      <div class="story-section reveal-container">
+        <div id="story">
+          <!-- Story will be dynamically added here -->
+        </div>
+        <img id="silly_sentence-image" class="silly_sentence-image" src="" alt="">
+        <button id="try-again-button" class="back-button">Try Again</button>
+      </div>
+    </div>
+  </main>
+  <script src="silly_sentence.js"></script>
+  <script src="common.js"></script>
+</body>
+</html>

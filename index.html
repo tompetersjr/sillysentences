@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silly Sentences Mania</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header class="sticky-header">
+    <div class="header-left">
+      <h1 class="flashy-title">Silly Sentences Mania</h1>
+      <p class="header-instructions">
+        <i class="fas fa-image"></i> Fill in the blanks on any Silly Sentence to reveal its mystery photo!
+      </p>
+    </div>
+  </header>
+  <main>
+    <div class="completion-status">
+      <p>Completed <span id="completed-count">0</span> of <span id="total-count">0</span> Silly Sentences</p>
+      <button id="reset-button">Reset All</button>
+    </div>
+    <div id="silly_sentences-container">
+      <!-- Cards will be dynamically added here -->
+    </div>
+  </main>
+  <script src="index.js"></script>
+  <script src="common.js"></script>
+</body>
+</html>

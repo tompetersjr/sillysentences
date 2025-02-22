@@ -1,0 +1,1816 @@
+{
+  "silly_sentences": [
+    {
+      "id": "zoo",
+      "title": "A Day at the Zoo",
+      "inputs": [
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., funny)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., monkey)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., jumped)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., funny)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., monkey)"
+        }
+      ],
+      "story": "The {adjective1} {noun1} {verb1} over the {adjective2} {noun2}.",
+      "image": "images/a_day_at_the_zoo.jpg"
+    },
+    {
+      "id": "space",
+      "title": "The Space Race",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., racer)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., fast)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., zoomed)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., rocket)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., galaxy)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., bright)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., won)"
+        }
+      ],
+      "story": "{noun1} piloted a {adjective1} {noun2} and {verb1} through the {place1}. With a {adjective2} flash, they {verb2} the race!",
+      "image": "images/the_space_race.jpg"
+    },
+    {
+      "id": "chef",
+      "title": "The Crazy Chef",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., chef)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., wacky)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., mixed)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., soup)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., spicy)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., danced)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., kitchen)"
+        }
+      ],
+      "story": "{noun1} was a {adjective1} cook who {verb1} a pot of {noun2}. The {adjective2} {noun2} made everyone {verb2} in the {place1}!",
+      "image": "images/the_crazy_chef.jpg"
+    },
+    {
+      "id": "ghost",
+      "title": "The Ghostly Party",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., ghost)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., creepy)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., floated)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., mansion)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., cake)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter aanothern adjective (e.g., gooey)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., sang)"
+        }
+      ],
+      "story": "A {adjective1} {noun1} {verb1} around a {place1}. They threw a party with a {noun2}, and the {adjective2} {noun2} made them {verb2}.",
+      "image": "images/the_ghostly_party.jpg"
+    },
+    {
+      "id": "dinosaur",
+      "title": "The Dinosaur Discovery",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., paleontologist)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., valley)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., huge)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., dinosaur)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., roared)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., muddy)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., ran)"
+        }
+      ],
+      "story": "{noun1} explored a {place1} and found a {adjective1} {noun2}. The {noun2} {verb1} and chased them through the {adjective2} terrain as they {verb2}.",
+      "image": "images/the_dinosaur_discovery.jpg"
+    },
+    {
+      "id": "adventure",
+      "title": "The Great Adventure",
+      "inputs": [
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., brave)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., explorer)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., climbed)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., mountain)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., brave)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., treasure)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., shouted)"
+        }
+      ],
+      "story": "Once upon a time, a {adjective1} {noun1} {verb1} to the top of a {place1}. The view was {adjective2}, and they discovered a {noun2}. With excitement, they {verb2} all the way home!",
+      "image": "images/the_great_adventure.jpg"
+    },
+    {
+      "id": "explorer",
+      "title": "The Lost Explorer",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., adventurer)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., jungle)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., tangled)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., monkey)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., swung)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., loud)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., laughed)"
+        }
+      ],
+      "story": "{noun1} got lost in a {place1}. A {adjective1} {noun2} {verb1} through the trees and {verb2} with a {adjective2} howl.",
+      "image": "images/the_lost_explorer.jpg"
+    },
+    {
+      "id": "school",
+      "title": "The Magical School",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., student)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., mysterious)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., waved)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., wand)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., castle)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter an adjective (e.g., sparkly)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., giggled)"
+        }
+      ],
+      "story": "{noun1} attended a {adjective1} school in a {place1}. They {verb1} a {noun2}, and the {adjective2} magic made them {verb2}.",
+      "image": "images/the_magical_school.jpg"
+    },
+    {
+      "id": "spy",
+      "title": "The Spy Mission",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., spy)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., sneaky)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., hid)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., headquarters)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., gadget)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., tiny)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., escaped)"
+        }
+      ],
+      "story": "Agent {noun1}, a {adjective1} hero, {verb1} in {place1}. Using a {noun2}, they {verb2} with {adjective2} precision.",
+      "image": "images/the_spy_mission.jpg"
+    },
+    {
+      "id": "robot",
+      "title": "The Robot Rebellion",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., engineer)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., smart)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., built)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., robot)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., factory)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., noisy)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., marched)"
+        }
+      ],
+      "story": "{noun1}, a {adjective1} inventor, {verb1} a {noun2}. But in the {place1}, the {adjective2} {noun2} {verb2} out of control!",
+      "image": "images/the_robot_rebellion.jpg"
+    },
+    {
+      "id": "monster",
+      "title": "The Monster Bash",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., monster)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., hairy)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., danced)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., swamp)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., band)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., loud)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., cheered)"
+        }
+      ],
+      "story": "A {adjective1} {noun1} {verb1} in a {place1}. The {noun2} played {adjective2} music, and everyone {verb2} all night.",
+      "image": "images/the_monster_bash.jpg"
+    },
+    {
+      "id": "pirate",
+      "title": "The Pirate’s Treasure",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., pirate)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., sneaky)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., sailed)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., island)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., treasure)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., shiny)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., danced)"
+        }
+      ],
+      "story": "{noun1} was an {adjective1} sailor who {verb1} to a {place1}. There, they found a {adjective2} {noun2} and {verb2} with joy!",
+      "image": "images/the_pirates_treasure.jpg"
+    },
+    {
+      "id": "circus",
+      "title": "The Circus Surprise",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., clown)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., goofy)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., juggled)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., ball)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., tent)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., loud)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., cheered)"
+        }
+      ],
+      "story": "A {adjective1} {noun1} {verb1} a {noun2} in a {place1}. The {adjective2} crowd {verb2} with excitement!",
+      "image": "images/the_circus_surprise.jpg"
+    },
+    {
+      "id": "superhero",
+      "title": "The Superhero Rescue",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., hero)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., brave)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., flew)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., city)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., villain)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., sneaky)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., laughed)"
+        }
+      ],
+      "story": "{noun1}, an {adjective1} savior, {verb1} over a {place1} to stop a {adjective2} {noun2} who {verb2} maniacally!",
+      "image": "images/the_superhero_rescue.jpg"
+    },
+    {
+      "id": "farm",
+      "title": "The Farm Frenzy",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., farmer)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., silly)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., chased)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., cow)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., barn)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., noisy)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., mooed)"
+        }
+      ],
+      "story": "A {adjective1} {noun1} {verb1} a {noun2} around a {place1}. The {adjective2} {noun2} {verb2} all day long!",
+      "image": "images/the_farm_frenzy.jpg"
+    },
+    {
+      "id": "time",
+      "title": "The Time Travel Mix-Up",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., scientist)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., curious)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., invented)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., machine)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., future)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., strange)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., shouted)"
+        }
+      ],
+      "story": "{noun1}, an {adjective1} thinker, {verb1} a {noun2} that took them to a {place1}. In a {adjective2} moment, they {verb2} in surprise!",
+      "image": "images/the_time_travel_mixup.jpg"
+    },
+    {
+      "id": "holiday",
+      "title": "The Holiday Disaster",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., turkey)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., burnt)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., exploded)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., kitchen)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., pie)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., gooey)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., laughed)"
+        }
+      ],
+      "story": "The {adjective1} {noun1} {verb1} in the {place1}, ruining the holiday feast. But then, a {adjective2} {noun2} appeared, and everyone {verb2} in relief!",
+      "image": "images/the_holiday_disaster.jpg"
+    },
+    {
+      "id": "sports",
+      "title": "The Big Game",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., quarterback)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., clumsy)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., tripped)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., field)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., ball)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., slippery)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., cheered)"
+        }
+      ],
+      "story": "The {adjective1} {noun1} {verb1} on the {place1}, dropping the {adjective2} {noun2}. But the crowd still {verb2} wildly!",
+      "image": "images/the_big_game.jpg"
+    },
+    {
+      "id": "fantasy",
+      "title": "The Dragon’s Lair",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., knight)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., brave)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., tiptoed)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., cave)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., dragon)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., sleepy)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., snored)"
+        }
+      ],
+      "story": "A {adjective1} {noun1} {verb1} into a {place1}, where a {adjective2} {noun2} {verb2} loudly. The {noun1} quietly escaped!",
+      "image": "images/the_dragons_lair.jpg"
+    },
+    {
+      "id": "beach",
+      "title": "The Beach Day Blunder",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., lifeguard)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., confused)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., swam)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., ocean)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., shark)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., tiny)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., giggled)"
+        }
+      ],
+      "story": "The {adjective1} {noun1} {verb1} into the {place1}, only to find a {adjective2} {noun2}. Surprisingly, the {noun2} just {verb2}!",
+      "image": "images/the_beach_day_blunder.jpg"
+    },
+    {
+      "id": "camping",
+      "title": "The Camping Catastrophe",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., camper)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., scared)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., screamed)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., forest)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., squirrel)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., fluffy)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., scampered)"
+        }
+      ],
+      "story": "A {adjective1} {noun1} {verb1} in the {place1} when a {adjective2} {noun2} {verb2} by, stealing their snacks!",
+      "image": "images/the_camping_catastrophe.jpg"
+    },
+    {
+      "id": "birthday",
+      "title": "The Birthday Bash",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., clown)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., silly)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., juggled)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., backyard)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., cake)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., enormous)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., sang)"
+        }
+      ],
+      "story": "At the {place1}, a {adjective1} {noun1} {verb1} while everyone {verb2} for the {adjective2} {noun2} to be cut!",
+      "image": "images/the_birthday_bash.jpg"
+    },
+    {
+      "id": "detective",
+      "title": "The Detective’s Mystery",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., detective)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., clever)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., searched)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., mansion)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., clue)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., mysterious)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., gasped)"
+        }
+      ],
+      "story": "The {adjective1} {noun1} {verb1} the {place1} and found a {adjective2} {noun2}. Suddenly, they {verb2} in shock!",
+      "image": "images/the_detectives_mystery.jpg"
+    },
+    {
+      "id": "underwater",
+      "title": "The Underwater Adventure",
+      "inputs": [
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., diver)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., curious)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., swam)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., coral reef)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., octopus)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., colorful)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., waved)"
+        }
+      ],
+      "story": "A {adjective1} {noun1} {verb1} through a {place1} and met a {adjective2} {noun2} that {verb2} its tentacles!",
+      "image": "images/the_underwater_adventure.jpg"
+    },
+    {
+      "id": "clumsy_superhero",
+      "title": "The Heroic Mishap",
+      "inputs": [
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., clumsy)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., superhero)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., tripped)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., skyscraper)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., villain)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., sneaky)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., laughed)"
+        }
+      ],
+      "story": "The {adjective1} {noun1} tried to stop the {adjective2} {noun2} but {verb1} over a {place1}. The {noun2} {verb2} maniacally as the {noun1} recovered and saved the day!",
+      "image": "images/the_heroic_mishap.jpg"
+    },
+    {
+      "id": "cooking_disaster",
+      "title": "The Kitchen Catastrophe",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Gordon)"
+        },
+        {
+          "type": "food1",
+          "placeholder": "Enter a food (e.g., lasagna)"
+        },
+        {
+          "type": "ingredient1",
+          "placeholder": "Enter an ingredient (e.g., hot sauce)"
+        },
+        {
+          "type": "ingredient2",
+          "placeholder": "Enter another ingredient (e.g., sugar)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., exploded)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., cheered)"
+        }
+      ],
+      "story": "Chef {name1} was filming their famous {food1} recipe when they accidentally added {ingredient1} instead of {ingredient2}. The dish {verb1} and the audience {verb2} in shock!",
+      "image": "images/the_kitchen_catastrophe.jpg"
+    },
+    {
+      "id": "pirate_treasure",
+      "title": "The Treasure Hunt Fiasco",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Jack)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., deserted island)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., legendary)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., treasure)"
+        },
+        {
+          "type": "animal1",
+          "placeholder": "Enter an animal (e.g., parrot)"
+        },
+        {
+          "type": "clothing1",
+          "placeholder": "Enter a clothing item (e.g., hat)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., surprised)"
+        }
+      ],
+      "story": "Captain {name1} led their crew to {place1} in search of the {adjective1} {noun1}. Instead, they found a {animal1} wearing a {clothing1}, which {verb1} them all!",
+      "image": "images/the_treasure_hunt_fiasco.jpg"
+    },
+    {
+      "id": "school_trip",
+      "title": "The Unusual Field Trip",
+      "inputs": [
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., museum)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., gigantic)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., dinosaur)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., danced)"
+        },
+        {
+          "type": "animal1",
+          "placeholder": "Enter an animal (e.g., penguin)"
+        }
+      ],
+      "story": "The students visited a {place1} and were amazed by the {adjective1} {noun1}. One student even {verb1} with a {animal1}!",
+      "image": "images/the_unusual_field_trip.jpg"
+    },
+    {
+      "id": "family_vacation",
+      "title": "The Vacation Surprise",
+      "inputs": [
+        {
+          "type": "family_name1",
+          "placeholder": "Enter a family name (e.g., Smith)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., beach)"
+        },
+        {
+          "type": "activity1",
+          "placeholder": "Enter an activity (e.g., swimming)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., played)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., volleyball)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., unforgettable)"
+        }
+      ],
+      "story": "The {family_name1} family went to {place1} for vacation. They expected {activity1}, but instead, they {verb1} with {noun1} and had a {adjective1} time!",
+      "image": "images/the_vacation_surprise.jpg"
+    },
+    {
+      "id": "job_interview",
+      "title": "The Bizarre Interview",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Alex)"
+        },
+        {
+          "type": "occupation1",
+          "placeholder": "Enter an occupation (e.g., astronaut)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., juggle)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., flamingo)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., sang)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., wild)"
+        }
+      ],
+      "story": "{name1} applied for a job as a {occupation1} and was asked to {verb1} a {noun1}. They impressed the interviewer by {verb2} with {adjective1} enthusiasm!",
+      "image": "images/the_bizarre_interview.jpg"
+    },
+    {
+      "id": "pet_adventure",
+      "title": "The Pet’s Secret Life",
+      "inputs": [
+        {
+          "type": "pet_name1",
+          "placeholder": "Enter a pet name (e.g., Fluffy)"
+        },
+        {
+          "type": "animal1",
+          "placeholder": "Enter an animal (e.g., cat)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., sneaked)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., neighbor’s yard)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., partied)"
+        },
+        {
+          "type": "verb3",
+          "placeholder": "Enter another verb (e.g., hid)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., toy)"
+        }
+      ],
+      "story": "When the owners left, {pet_name1} the {animal1} {verb1} to {place1} and {verb2} with their friends. They even {verb3} a {noun1}!",
+      "image": "images/the_pets_secret_life.jpg"
+    },
+    {
+      "id": "fashion_show",
+      "title": "The Fashion Fiasco",
+      "inputs": [
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., sparkly)"
+        },
+        {
+          "type": "clothing1",
+          "placeholder": "Enter a clothing item (e.g., dress)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., strutted)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., gasped)"
+        },
+        {
+          "type": "adjective2",
+          "placeholder": "Enter another adjective (e.g., outrageous)"
+        }
+      ],
+      "story": "At the fashion show, models wore {adjective1} {clothing1} and {verb1} down the runway. The audience {verb2} in amazement at the {adjective2} designs!",
+      "image": "images/the_fashion_fiasco.jpg"
+    },
+    {
+      "id": "sports_game",
+      "title": "The Wacky Tournament",
+      "inputs": [
+        {
+          "type": "sport1",
+          "placeholder": "Enter a sport (e.g., basketball)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., played)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., banana)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., roared)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., unlikely)"
+        }
+      ],
+      "story": "The {sport1} game had players {verb1} with {noun1} instead of the usual equipment. The crowd {verb2} as the {adjective1} team won!",
+      "image": "images/the_wacky_tournament.jpg"
+    },
+    {
+      "id": "concert",
+      "title": "The Strange Symphony",
+      "inputs": [
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., melodic)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., spoon)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., howled)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., banged)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., drum)"
+        }
+      ],
+      "story": "The band played {adjective1} music using {noun1} as instruments. The lead singer {verb1} while the drummer {verb2} with {noun2}!",
+      "image": "images/the_strange_symphony.jpg"
+    },
+    {
+      "id": "pirate_adventure",
+      "title": "The Pirate’s Treasure Hunt",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Jack)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., sneaky)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., ship)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., sailed)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., island)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., treasure)"
+        }
+      ],
+      "story": "Captain {name1} led a {adjective1} crew on their {noun1}. They {verb1} to a {place1} and found a chest full of {noun2}!",
+      "image": "images/the_pirates_treasure_hunt.jpg"
+    },
+    {
+      "id": "cooking_contest",
+      "title": "The Crazy Cooking Contest",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Gordon)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., spicy)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., soup)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., stirred)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., kitchen)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., cheered)"
+        }
+      ],
+      "story": "Chef {name1} made a {adjective1} {noun1} and {verb1} it in the {place1}. The judges tasted it and {verb2} with delight!",
+      "image": "images/the_crazy_cooking_contest.jpg"
+    },
+    {
+      "id": "haunted_house",
+      "title": "The Haunted House Mystery",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Scooby)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., spooky)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., ghost)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., floated)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., attic)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., screamed)"
+        }
+      ],
+      "story": "{name1} explored a {adjective1} house where a {noun1} {verb1} in the {place1}. {name1} {verb2} and ran out the door!",
+      "image": "images/the_haunted_house_mystery.jpg"
+    },
+    {
+      "id": "circus_act",
+      "title": "The Circus Act Calamity",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Bubbles)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., clumsy)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., clown)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., juggled)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., tent)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., pies)"
+        }
+      ],
+      "story": "{name1} the {adjective1} {noun1} {verb1} in the {place1}, but dropped a bunch of {noun2} on the audience!",
+      "image": "images/the_circus_act_calamity.jpg"
+    },
+    {
+      "id": "road_trip",
+      "title": "The Wacky Road Trip",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Riley)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., loud)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., car)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., drove)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., desert)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., cactus)"
+        }
+      ],
+      "story": "{name1} took a {adjective1} {noun1} and {verb1} through the {place1}, only to crash into a giant {noun2}!",
+      "image": "images/the_wacky_road_trip.jpg"
+    },
+    {
+      "id": "magic_show",
+      "title": "The Magician’s Mishap",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Houdini)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., tricky)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., hat)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., pulled)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., stage)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., elephant)"
+        }
+      ],
+      "story": "Magician {name1} used a {adjective1} {noun1} and {verb1} it on the {place1}, accidentally revealing a {noun2}!",
+      "image": "images/the_magicians_mishap.jpg"
+    },
+    {
+      "id": "beach_day",
+      "title": "The Beach Day Disaster",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Sandy)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., giant)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., wave)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., crashed)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., shore)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., giggled)"
+        }
+      ],
+      "story": "{name1} watched a {adjective1} {noun1} that {verb1} on the {place1}. Everyone {verb2} as their picnic floated away!",
+      "image": "images/the_beach_day_disaster.jpg"
+    },
+    {
+      "id": "robot_inventor",
+      "title": "The Robot Inventor’s Surprise",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Tesla)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., shiny)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., robot)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., danced)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., lab)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., clapped)"
+        }
+      ],
+      "story": "{name1} built a {adjective1} {noun1} that {verb1} around the {place1}. The crowd {verb2} in amazement!",
+      "image": "images/the_robot_inventors_surprise.jpg"
+    },
+    {
+      "id": "game_show",
+      "title": "The Game Show Goof",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Pat)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., wild)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., prize)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., spun)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., studio)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., shouted)"
+        }
+      ],
+      "story": "On the show, {name1} won a {adjective1} {noun1} after they {verb1} the wheel in the {place1}. The host {verb2} in surprise!",
+      "image": "images/the_game_show_goof.jpg"
+    },
+    {
+      "id": "jungle_explorer",
+      "title": "The Jungle Explorer’s Discovery",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Indiana)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., brave)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., vine)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., swung)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., jungle)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., statue)"
+        }
+      ],
+      "story": "{name1}, a {adjective1} explorer, {verb1} on a {noun1} through the {place1} and discovered a hidden {noun2}!",
+      "image": "images/the_jungle_explorers_discovery.jpg"
+    },
+    {
+      "id": "magic_potion",
+      "title": "The Wizard’s Wacky Brew",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Merlin)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., bubbly)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., potion)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., fizzed)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., tower)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., frog)"
+        }
+      ],
+      "story": "Wizard {name1} mixed a {adjective1} {noun1} that {verb1} wildly in the {place1}. Suddenly, it turned into a {noun2}!",
+      "image": "images/the_wizards_wacky_brew.jpg"
+    },
+    {
+      "id": "space_rescue",
+      "title": "The Galactic Rescue Mission",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Zara)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., brave)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., spaceship)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., zoomed)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., asteroid)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., cheered)"
+        }
+      ],
+      "story": "{name1} piloted a {adjective1} {noun1} and {verb1} to a {place1} to save the day. The crew {verb2} in gratitude!",
+      "image": "images/the_galactic_rescue_mission.jpg"
+    },
+    {
+      "id": "pet_show",
+      "title": "The Crazy Pet Show",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Max)"
+        },
+        {
+          "type": "animal1",
+          "placeholder": "Enter an animal (e.g., dog)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., danced)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., stage)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., silly)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., trick)"
+        }
+      ],
+      "story": "{name1} the {animal1} {verb1} on the {place1} during a {adjective1} {noun1} competition!",
+      "image": "images/the_crazy_pet_show.jpg"
+    },
+    {
+      "id": "museum_mishap",
+      "title": "The Museum Mix-Up",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Clara)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., ancient)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., statue)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., wobbled)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., gallery)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., giggled)"
+        }
+      ],
+      "story": "{name1} tripped near a {adjective1} {noun1} in the {place1}, causing it to {verb1}. The visitors {verb2} at the chaos!",
+      "image": "images/the_museum_mix_up.jpg"
+    },
+    {
+      "id": "super_spy",
+      "title": "The Super Spy’s Secret",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., James)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., stealthy)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., gadget)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., sneaked)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., hideout)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., secret)"
+        }
+      ],
+      "story": "Agent {name1} used a {adjective1} {noun1} to {verb1} into a {place1}, uncovering a shocking {noun2}!",
+      "image": "images/the_super_spys_secret.jpg"
+    },
+    {
+      "id": "snow_day",
+      "title": "The Snow Day Shenanigans",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Emma)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., snowy)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., sled)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., slid)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., hill)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., laughed)"
+        }
+      ],
+      "story": "{name1} grabbed a {adjective1} {noun1} and {verb1} down a {place1}. Friends {verb2} as snow flew everywhere!",
+      "image": "images/the_snow_day_shenanigans.jpg"
+    },
+    {
+      "id": "talent_show",
+      "title": "The Talent Show Twist",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Lily)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., dazzling)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., dance)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., tripped)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., stage)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., clapped)"
+        }
+      ],
+      "story": "{name1} performed a {adjective1} {noun1} but {verb1} on the {place1}. The audience still {verb2} for the effort!",
+      "image": "images/the_talent_show_twist.jpg"
+    },
+    {
+      "id": "zoo_escape",
+      "title": "The Zoo Escape Chaos",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Zookeeper Bob)"
+        },
+        {
+          "type": "animal1",
+          "placeholder": "Enter an animal (e.g., monkey)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., escaped)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., zoo)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., banana)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., chased)"
+        }
+      ],
+      "story": "{name1} panicked when a {animal1} {verb1} from the {place1} with a {noun1}. They {verb2} it all over town!",
+      "image": "images/the_zoo_escape_chaos.jpg"
+    },
+    {
+      "id": "time_traveler",
+      "title": "The Time Traveler’s Trouble",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Doc)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., old)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., clock)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., landed)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., medieval castle)"
+        },
+        {
+          "type": "noun2",
+          "placeholder": "Enter another noun (e.g., knight)"
+        }
+      ],
+      "story": "{name1} used a {adjective1} {noun1} to time travel and {verb1} in a {place1}. A confused {noun2} greeted them!",
+      "image": "images/the_time_travelers_trouble.jpg"
+    },
+    {
+      "id": "movie_set",
+      "title": "The Movie Set Mayhem",
+      "inputs": [
+        {
+          "type": "name1",
+          "placeholder": "Enter a name (e.g., Spielberg)"
+        },
+        {
+          "type": "adjective1",
+          "placeholder": "Enter an adjective (e.g., epic)"
+        },
+        {
+          "type": "noun1",
+          "placeholder": "Enter a noun (e.g., scene)"
+        },
+        {
+          "type": "verb1",
+          "placeholder": "Enter a verb (e.g., crashed)"
+        },
+        {
+          "type": "place1",
+          "placeholder": "Enter a place (e.g., set)"
+        },
+        {
+          "type": "verb2",
+          "placeholder": "Enter another verb (e.g., yelled)"
+        }
+      ],
+      "story": "Director {name1} filmed a {adjective1} {noun1} when everything {verb1} on the {place1}. The crew {verb2} in panic!",
+      "image": "images/the_movie_set_mayhem.jpg"
+    }
+  ]
+}
